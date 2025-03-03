@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body{
+    background-image: url('/images/body-background.jpg');
+    background-color: rgba(0, 0, 0, 0.7); /* Blanco con 50% de opacidad */
+    background-blend-mode: overlay; /* Mezcla el color con la imagen */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+form{
+    background:#121212;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 15%;
+    padding: 50px;
+    width: 420px;
+    text-align: center;
+}
+
+.logo{
+    width: 70px;
+    margin-bottom: 35px;
+}
+
+.input-container{
+    position: relative;
+}
+
+.input-container > i{
+    padding: 14px;
+    border-radius: 50%;
+    background-color: #1db954;
+    color: white;
+    position: absolute;
+    font-size: 20px;
+    top: 7px;
+    right: 8px;
+}
+
+.input-container > input{
+    padding: 20px 50px 20px 15px;
+    width: 100%;
+    margin-bottom: 25px;
+    border-radius: 35px;
+    background-color: transparent;
+    border: 2px solid #b3b3b3;
+    font-size: 16px;
+    outline: none;
+    color: #b3b3b3;
+}
+
+::placeholder{
+    color: white;
+    font-size: 16px;
+}
+
+form a{
+    display: block;
+    color: #1db954;
+    font-size: 15px;
+    margin-bottom: 25px;
+}
+
+.login-button{
+    background-color: white;
+    padding: 14px 35px;
+    border: 0px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 15px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Registration Form</title>
+</head>
+<body>
+    <form action="/php/send.php" method="post">
+        
+        <img class="logo" src="/images/spotify-logo.png" alt="megamaxi logo">
+        
+        <div class="input-group">
+            
+            <div class="input-container">
+                <input type="text" name="name" id="name" placeholder="Name">
+                <i class="fa-solid fa-user"></i>
+            </div>
+            
+            <div class="input-container">
+                <input type="password" name="password" id="password" placeholder="Password">
+                <i class="fa-solid fa-lock"></i>
+            </div>
+
+            <div class="input-container">
+                <input type="email" name="email" id="email" placeholder="Email">
+                <i class="fa-solid fa-envelope"></i>
+            </div>
+
+            <div class="input-container">
+                <input type="tel" name="tel" id="tel" placeholder="Phone">
+                <i class="fa-solid fa-phone"></i>
+            </div>
+
+            <a href="#">Terminos y condiciones</a>
+
+            <input type="submit" name="submit" id="submit" class="login-button" value="Send" >
+
+        </div>
+    
+    </form>
+    
+</body>
+</html>
